@@ -1,7 +1,279 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World! Page under construction.</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Uthaipon (Tao) Tantipongpipat Personal Site</title>
+
+	<!-- Formatting header file reload -->
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- google twitter bootstrap for this. It's to make locating layout left/right easier -->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/template.css" rel="stylesheet">
+  </head>
+
+  <body> <!-- Like begin document here. -->
+
+    <nav class="navbar navbar-default navbar-fixed-top"> <!-- Navigation bar on the top. Automatically adjust. Use css file bootstrap.min.css . -->
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Uthaipon (Tao) Tantipongpipat</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li> <!-- # means id in this file -->
+            <li><a href="#publications">Publications</a></li>
+      <!--      <li><a href="#code">Code</a></li>  -->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <section id="about">
+      <div class="row">
+	  
+	    <div class="col-xs-8"> <!-- last 9 of 12 on the right for text -->
+          <h3>About</h3> <!-- header type. HTML specifies what header looks like. Size 3rd biggest. -->
+          <p> <!-- paragraph from now on -->
+		  I am a 4th- and final year Ph.D. student in <a href="http://www.aco.gatech.edu/"> Algorithms, Combinatorics, and Optimization (ACO) </a> 
+		  at Georgia Institute of Technology, based in <a href="http://www.scs.gatech.edu"> School of Computer Science</a>. 
+		  <br><br>
+		  I will graduate in May 2020 and am on the industry job market. 
+		  
+		<!--		  
+		  Here's the <a href="https://arxiv.org/abs/1902.11281v2"> paper</a>, 
+		  <a href="https://github.com/uthaipon/multi-criteria-dimensionality-reduction/blob/master/NeurIPS2019-presentation/poster/NeurIPS%202019%20poster.pdf"> poster</a>,
+		  <a href="https://github.com/uthaipon/multi-criteria-dimensionality-reduction/blob/master/NeurIPS2019-presentation/slide-spotlight/5-min%20spotlight.pdf"> slide</a>,
+		  <a href="https://youtu.be/aR64H5Jn0gY"> video</a>,
+		  <a href="https://github.com/uthaipon/multi-criteria-dimensionality-reduction"> python implementation</a>, 
+		  and <a href="https://sites.google.com/site/ssamadi/home/fair-pca-homepage"> website </a> for this work.
+		-->
+		  
+		  </p>
+		  
+		  <p>
+		  Here are my <a href="files/Resume-U-Tantipongpipat.pdf">resume</a>,  <!--Works like <a href="./link"> Text</a> -->
+		   <!-- (updated in October 2019) -->
+		   <a href="files/CV-U-Tantipongpipat.pdf">CV</a>,  <!--Works like <a href="./link"> Text</a> -->
+		  <!-- (updated in September 2019) -->
+			and <a href="files/ResearchStatement-Tao.pdf">research statement</a>
+		  <!-- (updated in September 2019) -->
+		   (updated in November 2019).
+		  </p>
+		  
+		  <h4>Research</h4>
+		  <p>
+		  My research interests include machine learning algorithms, combinatorial optimization, differential privacy, and fairness in machine learning.		 
+
+          I am grateful to be advised by <a href="https://www2.isye.gatech.edu/~msingh94/"> Mohit Singh</a>. 
+		  Our current research has been finding better (randomized and deterministic) polynomial-time approximation algorithms
+		  for optimal design problems in statistics. The first <a href="https://arxiv.org/abs/1802.08318"> algorithmic work </a>  is joint with <a href="http://www.cs.toronto.edu/~anikolov/"> Aleksandar (Sasho) Nikolov</a> 
+		  and <a href="http://vmadan2.web.engr.illinois.edu/"> Vivek Madan</a>. 
+		  My colleages <a href="http://vmadan2.web.engr.illinois.edu/"> Vivek Madan</a>, <a href="https://www2.isye.gatech.edu/~msingh94/"> Mohit Singh</a>, <a href="https://sites.google.com/site/weijunxieor"> Weijun Xie</a>) and I 
+		  also first prove the theoretical guarantee of commonly used heuristics, namely local search (Fedorov exchange) and greedy algorithm in <a href="http://proceedings.mlr.press/v99/madan19a.html"> this work </a>.
+		  </p>
+
+		  <p>
+		  In addition, I am working on differentially privacy. The first project is on growing databases with 
+		  <a href="http://pwp.gatech.edu/rachel-cummings/"> Rachel Cummings</a> and <a href="https://cs.richmond.edu/faculty/krehbiel/"> Sara Krehbiel</a>.
+		  Part of the work was presented at <a href="http://tpdp.cse.buffalo.edu/2017/"> TPDP2017</a>. 
+		  Rachel and I also is a part of the team winning first prize and people's choice award ($20000 total) for 
+		  <a href="https://www.herox.com/UnlinkableDataChallenge"> NIST's privacy challenge </a>.
+		  Our <a href="https://www.herox.com/UnlinkableDataChallenge/round/358/entry/20533"> proposed solution </a> is by differentially private generation of synthetic data via GANs 
+		  and is presented at <a href="https://tpdp.cse.buffalo.edu/2018/"> TPDP2018</a>. 
+		  More recently, I am exploring the practicality of employing differential privacy in training large deep learning models 
+		  (during summer 2019 internship, hosted by <a href="https://www.microsoft.com/en-us/research/people/jakul/"> Janardhan Kulkarni</a> and <a href="http://www.yekhanin.org/"> Sergey Yekhanin</a>).
+          	</p>
+		  
+		<p>
+		  My other recent direction of work is fairness in machine learning. 
+		  In particular, my coauthors and I defined a notion of fairness in PCA (<a href="https://sites.google.com/site/ssamadi/fair-pca-homepage">the blog on this notion</a>) 
+		  and proposed (<a href="https://arxiv.org/abs/1811.00103">algorithms for two groups</a>). We later improve the result to <a href="https://arxiv.org/abs/1902.11281v2"> solving fairness over multiples groups and more general objective</a>.
+		  The algorithms have proven theoretical guarantee and scale to large datasets. 
+		  The <a href="https://github.com/uthaipon/multi-criteria-dimensionality-reduction">implementation</a> is publicly available on Github.
+		</p>
+
+
+
+		  <h4>Background</h4>
+		  <p>
+		  During my undergraduate, I studied <a href="https://math.richmond.edu/"> mathematics</a> at <a href="https://www.richmond.edu/"> University of Richmond</a>. 
+		  My undergraduate research was in discrete geometry and algebraic combinatorics,
+		  mainly on bent functions (coding theory) and partial different sets. 
+		  </p>
+		  <p>
+		  <a href="http://scholarship.richmond.edu/honors-theses/929/">
+			My undergraduate thesis</a>, under the supervision of <a href="https://math.richmond.edu/faculty/jdavis/">
+            James Davis</a>, was in the area of algebraic combinatorics, coding theory, and discrete geometry, specifically on Cameron-Liebler line classes and partial difference sets, which includes
+			a new non-existence result of partial difference sets in a certain class of abelian groups.
+		  </p>
+		  
+		  </p>
+		  I am originally from Bangkok, Thailand. <!-- I graduated high school from <a href="http://www.bcc.ac.th/"> Bangkok Christian College</a>. -->
+		  During the middle and high school period, I was involved in and very much enjoyed national and international mathematics competitions and 
+		  many serious training that came with those.
+		  <p>
+		  
+        </div>
+		
+        <div class="col-xs-4"> <!-- first 3 of 12 on the left for picture -->
+          <img src="img/profile.jpg" class="img-rounded img-responsive" alt="Uthaipon (Tao) Tantipongpipat">
+        </div>
+
+
+      </div>
+      </section>
+      
+      <hr> <!-- horizontal line -->
+
+      <section id="publications">
+        <h3>Publications</h3>
+        <ol> <!-- unordered list uses ul. --> 
+		
+	  <li> <!-- start of each item -->
+            <b> <a href="https://arxiv.org/abs/1912.03250"> </a> Maximizing Determinants under Matroid Constraints </b> <!-- Bold --> 
+            with Vivek Madan, Aleksandar Nikolov, and Mohit Singh.
+       
+			
+			
+            <br><br> <!-- br is one enter. Two enters for one full blank line -->
+          </li>	
+		  		
+	  <li> <!-- start of each item -->
+            <b> <a href="https://arxiv.org/abs/1912.03250"> Differentially Private Mixed-Type Data Generation For Unsupervised Learning</a> </b> <!-- Bold --> 
+            with Chris Waites, Digvijay Boob, Amaresh Ankit Siva, and Rachel Cummings
+       
+			<br>
+			<a href="https://github.com/DPautoGAN/DPautoGAN"> Code on GitHub </a> 
+            <br><br> <!-- br is one enter. Two enters for one full blank line -->
+          </li>	
+		  
+	  <li> <!-- start of each item -->
+            <b> <a href="https://arxiv.org/abs/1902.11281v2"> Fair Dimensionality Reduction and Iterative Rounding for SDPs</a> </b> <!-- Bold --> 
+            with Samira Samadi, Jamie Morgenstern, Mohit Singh, and Santosh Vempala. 
+			<br>
+            Conference on Neural Information Processing Systems (NeurIPS) 2019, spotlight (top 12% of accepted papers)
+			<br>
+			<a href="https://github.com/sdpforall"> Code on GitHub </a> 
+            <br><br> <!-- br is one enter. Two enters for one full blank line -->
+          </li>	
+
+	  <li> <!-- start of each item -->
+            <b> <a href="http://proceedings.mlr.press/v99/madan19a.html"> Combinatorial Algorithms for Optimal Design</a> </b> <!-- Bold --> 
+            with Vivek Madan, Mohit Singh, and Weijun Xie. 
+			<br>
+            Conference on Learning Theory (COLT) 2019.
+            <br><br> <!-- br is one enter. Two enters for one full blank line -->
+          </li>	
+		  
+	  <li> <!-- start of each item -->
+            <b><a href="https://arxiv.org/abs/1802.08318"> Proportional Volume Sampling and Approximation Algorithms for <i>A</i>-Optimal Design</a></b> <!-- Bold -->
+            with Aleksandar Nikolov and Mohit Singh.
+			<br>
+            ACM-SIAM Symposium on Discrete Algorithms (SODA) 2019.
+            <br><br> <!-- br is one enter. Two enters for one full blank line -->
+          </li>
+
+	  <li> <!-- start of each item -->
+            <b> <a href="https://arxiv.org/abs/1811.00103"> The Price of Fair PCA: One Extra Dimension</a> </b> <!-- Bold --> 
+            with Samira Samadi, Jamie Morgenstern, Mohit Singh, and Santosh Vempala. 
+			<br>
+            Conference on Neural Information Processing Systems (NeurIPS) 2018.
+            <br> <!-- br is one enter. Two enters for one full blank line -->
+			<a href="https://sites.google.com/site/ssamadi/home/fair-pca-homepage"> Website on fair PCA </a> | <a href="https://github.com/samirasamadi/Fair-PCA"> Code on GitHub </a> | <a href="posters/nips-2018-poster-fair-pca.pdf"> Poster </a>
+			<br><br> <!-- br is one enter. Two enters for one full blank line -->
+          </li>	
+
+	  <li> <!-- start of each item -->
+            <b> <a href="https://arxiv.org/abs/1803.06416"> Differential Privacy for Growing Databases</a> </b> <!-- Bold -->
+            with Rachel Cummings, Sara Krehbiel, and Kevin Lai. 
+			<br>
+            Conference on Neural Information Processing Systems (NeurIPS) 2018.
+            <br><br> <!-- br is one enter. Two enters for one full blank line -->
+          </li>		
+		  
+          <li> <!-- start of each item -->
+            <b><a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v21i4p33">
+            A Combinatorial Approach to Ebert's Hat Game with Many Colors</a></b> <!-- Bold and make it as a link -->
+			.
+			<br>
+            The Electronic Journal of Combinatorics 21.4 (2014): P4-33.
+            <br><br>
+          </li>
+
+        </ol>
+		
+      </section>
+
+      <hr>
+
+      <!--
+      <section id="code">
+        <h3>Code</h3> 
+        <ul>
+          <li><a href="code/peak-polynomials.sagews">Peak polynomials in Sage</a></li>
+        </ul>
+      </section>
+
+      <hr>
+      -->
+	  
+	  <section id="experiences">
+		<h3>Experiences</h3>
+		<ul> <!-- unordered list-->
+			<li>
+				<b>Microsoft Research intern</b>, Redmond, WA. Summer 2019.
+				<br>
+				Research topic: practicality of differential privacy in large-scale deep machine learning models (NLP)
+				and theoretical privacy analysis of correlation clustering.
+			</li>
+			
+		</ul>
+			
+	<hr> <!-- this is thin horizontal line -->
+
+      <section id="contact">
+        <h3>Contact</h3>
+        
+        ta<div style="display:none">foo@gmail.com</div>o@<span style="display:none">bar@gatech.edu</span>gatech<h1 style="display:none">baz@gmail.com</h1>.edu<a style="display:none">qux@gmail.com</a><br>
+
+		ISYE Annex, Room 428; or
+		Klaus Advanced Computing Building, Room 2124<br>
+        Georgia Institute of Technology<br>
+        Atlanta, GA 30332
+		<br><br>
+		This site: <a href="https://www.cc.gatech.edu/~uthaipon3/"> www.cc.gatech.edu/~uthaipon3/ </a>
+      </section>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
